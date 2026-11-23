@@ -78,17 +78,9 @@ Ein weiterer wichtiger Punkt waren die Akzeptanzkriterien. Diese müssen so gena
 
 Zusätzlich haben wir das EVA-Modell kennengelernt. Es besteht aus drei Schritten:
 
-Eingabe
+Eingabe                                 Verarbeitung                            Ausgabe
 
-Verarbeitung
-
-Ausgabe
-
-Artikelname, Einzelpreis und Menge
-
-Gesamtpreis = Einzelpreis × Menge
-
-Zusammenfassung mit dem Gesamtpreis
+Artikelname, Einzelpreis und Menge      Gesamtpreis = Einzelpreis × Menge       Zusammenfassung mit dem Gesamtpreis
 
 Auch den Trockenlauf haben wir behandelt. Dabei wird der Ablauf eines Programms bereits vor dem Programmieren mit konkreten Werten von Hand durchgespielt. So kann man überprüfen, ob die Logik stimmt und welche Ergebnisse erwartet werden.
 
@@ -146,33 +138,19 @@ Ausgabe
 
 Zusammenfassung mit dem Gesamtpreis auf der Konsole anzeigen
 
+
 Die richtigen Datentypen verwenden
 
 Ein weiterer wichtiger Punkt war die Auswahl der passenden Datentypen. Nicht jeder Wert sollte mit demselben Datentyp gespeichert werden.
 
-Wert
+Wert                            Datentyp        Begründung
 
-Datentyp
+Artikelname                     string          Der Artikelname besteht aus Text.
 
-Begründung
+Menge                           int             Die Menge besteht aus ganzen Zahlen.
 
-Artikelname
-
-string
-
-Der Artikelname besteht aus Text.
-
-Menge
-
-int
-
-Die Menge besteht aus ganzen Zahlen.
-
-Einzelpreis und Gesamtpreis
-
-decimal
-
-Geldbeträge können Nachkommastellen enthalten und sollen möglichst genau berechnet werden.
+Einzelpreis und Gesamtpreis     decimal         Geldbeträge können Nachkommastellen enthalten und sollen möglichst d                                               genau berechnet werden      
+                    
 
 Eingaben müssen umgewandelt werden.
 
